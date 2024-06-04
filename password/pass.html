@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/all.min.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <style>
+        .row
+        {
+            padding:20px 0px;
+        }
+        @media(max-width:429px)
+        {
+            .btnPass a
+            {
+                padding:15px 40px !important;
+            }
+        }
+        @media(max-width:361px)
+        {
+            .textTitle h2
+            {
+                font-size: 20px;
+            }
+            .forms
+            {
+                padding: 0 50px !important;
+            }
+        }
+    </style>
+</head>
+<body style="position: relative;">
+
+    <div class="container">
+        <div class="row "style="margin-top:4%; box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; align-items:center">
+            <div class="col-lg-6 col-12">
+                <div class="image">
+                    <img src="../image/Reset password-cuate (1).svg" alt="">
+                </div>
+            </div>
+            <div class="col-lg-6 col-12 forms" style="padding: 0 100px;">
+                <div class="textTitle pb-4 pt-3"><h2>Enter You New Password</h2></div>
+                <div class="fPassInput mb-4">
+                    <input type="password" class="form-control" style="border-radius: 30px;" name="password" id="password1" placeholder="New Password">
+                </div>
+                <div class="sPassInput">
+                    <input type="password" class="form-control" style="border-radius: 30px;" name="password" id="password2" placeholder="confirm New Password">
+                </div>
+                <div class="btnPass text-center mt-5">
+                    <a href="#" class="text-light" style="text-decoration: none;padding:15px 100px ;background-image: linear-gradient(to left top, #caa4e6, #c78be9, #c570eb, #c44ee9, #c50ee6);">Reset Password</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="massageErroePass bg-danger p-3 w-25 text-light d-none" style="position: fixed; top:30px; right:50px">
+        The password does not match, please check it</div>
+
+    <script src="../js/all.min.js"></script>
+    <script src="../js/bootstrap.bundle.min.js"></script>
+    <script src="../js/reset.js"></script>
+</body>
+</html>

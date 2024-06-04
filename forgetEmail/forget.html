@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/all.min.css">
+    <style>
+        .row
+        {
+            padding:20px 0px;
+        }
+        @media(max-width:415px)
+        {
+            .recetmail{
+                margin-top: 50px !important;
+            }
+            .containBtn
+            {
+                margin-bottom: 20px;
+            }
+        }
+    </style>
+</head>
+<body style="position: relative;">
+    <div class="container">
+        <div class="row" style=" margin-top:4%; box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; align-items:center">
+            <div class="col-lg-6 col-12">
+                <div class="image">
+                    <img src="../image/Reset password-amico.svg" class="img-fluid" alt="">
+                </div>
+            </div>
+            <div class="col-lg-6 col-12">
+                <div class="recetmail" style="padding: 0 65px;">
+                    <input type="email" class="form-control" name="email" id="recetMail" placeholder="Enter Your Email">
+                </div>
+                <div class="containBtn text-center mt-4 pt-5">
+                    <a href="#" class="text-light" style="text-decoration: none;padding:15px 100px ;background-image: linear-gradient(to left top, #caa4e6, #c78be9, #c570eb, #c44ee9, #c50ee6);
+                    ">Continue</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="massageErroeReset bg-danger p-3 w-25 text-light d-none" style="position: fixed; top:30px; right:50px">This email is incorrect, please check it <span class="ps-5 closeMassage"><i class="ps-2 fa-solid fa-xmark"></i></span></div>
+    <script src="../js/all.min.js"></script>
+    <script src="../js/bootstrap.bundle.min.js"></script>
+    <script src="../js/forget.js"></script>
+</body>
+</html>

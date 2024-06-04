@@ -1,0 +1,140 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.row
+{
+    margin-top: 4%;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    min-height: 80vh;
+}
+.forms
+{
+    padding:120px 75px;
+    background-color: #263238;
+}
+h2
+{
+    font-size: 40px;
+}
+.box1
+{
+    justify-content: space-between;
+    align-items: center;
+}
+.box1 a
+{
+    text-decoration: none;
+}
+.emailLogin input , .passLogin input
+{
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+.btn
+{
+    width: 100%;
+}
+.btn a
+{
+    text-align: center;
+    color: #fff;
+    width: 100%;
+    background-image: linear-gradient(to left top, #caa4e6, #c78be9, #c570eb, #c44ee9, #c50ee6);
+    padding:10px 170px;
+    text-decoration: none;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+.created a
+{
+    text-decoration: none;
+    color: #ba68c8;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+body
+{
+    position: relative;
+}
+.massagErroeLogin
+{
+    position: fixed;
+    top: 10%;
+    right: 50px;
+    font-size: 17px;
+}
+
+@media(max-width:429px)
+{
+    .forms
+{
+    padding:120px 45px;
+    background-color: #263238;
+}
+    .box1
+    {
+        flex-direction: column;
+    }
+    .forgetPass
+    {
+        margin-top: 10px;
+    }
+    .btn a
+{
+    text-align: center;
+    color: #fff;
+    width: 100%;
+    background-image: linear-gradient(to left top, #caa4e6, #c78be9, #c570eb, #c44ee9, #c50ee6);
+    padding:10px 80px;
+    text-decoration: none;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+}
+@media(max-width:376px)
+{
+    .btn a
+    {
+        text-align: center;
+        color: #fff;
+        width: 100%;
+        background-image: linear-gradient(to left top, #caa4e6, #c78be9, #c570eb, #c44ee9, #c50ee6);
+        padding:10px 60px;
+        text-decoration: none;
+        border-radius: 30px;
+        -webkit-border-radius: 30px;
+        -moz-border-radius: 30px;
+        -ms-border-radius: 30px;
+        -o-border-radius: 30px;
+    }
+}
+@media(max-width:321px)
+{
+    .btn a
+    {
+        text-align: center;
+        color: #fff;
+        width: 100%;
+        background-image: linear-gradient(to left top, #caa4e6, #c78be9, #c570eb, #c44ee9, #c50ee6);
+        padding:10px 60px;
+        text-decoration: none;
+        border-radius: 30px;
+        -webkit-border-radius: 30px;
+        -moz-border-radius: 30px;
+        -ms-border-radius: 30px;
+        -o-border-radius: 30px;
+    }
+}
